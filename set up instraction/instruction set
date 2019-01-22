@@ -1,0 +1,40 @@
+#This app is built under python v- 3.6.7
+
+No more instalation required so i didn't felt necessary for docker file
+
+#Run command 
+1#Inside the trivago folder run command line interface or shell
+
+2#Run 
+	python3 app
+
+3#You will find the user input command enter file path 
+	app/files/hotels.csv
+
+If sucess then file will convert with sucess message other wise fail message
+If file convertion success you will find the file in same path you entered and with entered formte extension
+
+
+You will find the test result as well as under test_file folder the two different xml and json file will be generated
+
+To convert csv file to xml and json please insert the correct file path
+
+like :  app/files/hotels.csv
+
+then the file formate xml or json
+
+
+
+
+To run unit test please run this command inside trivago directory
+python3 app/u_test.py 
+
+
+#app-> main module
+#interfaces package contain interfaces
+#p_validator contains validation class
+#test_file directory contains all generated file of unit test
+
+#files folder is just for default testing command for file path input
+
+

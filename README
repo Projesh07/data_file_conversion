@@ -1,11 +1,11 @@
-#This app is built under python v- 3.6.7
+# This app is built under python v- 3.6.7
 
 No more instalation required so i didn't felt necessary for docker file
 
-#Run command 
-1#Inside the trivago folder run command line interface or shell
+# Run command 
+1 #Inside the trivago folder run command line interface or shell
 
-2#Run 
+2 #Run 
 	python3 app
 
 3#You will find the user input command enter file path 
@@ -30,11 +30,11 @@ To run unit test please run this command inside trivago directory
 python3 app/u_test.py 
 
 
-#app-> main module
-#interfaces package contain interfaces
-#p_validator contains validation class
-#test_file directory contains all generated file of unit test
+# app-> main module
+# interfaces package contain interfaces
+# p_validator contains validation class
+# test_file directory contains all generated file of unit test
 
-#files folder is just for default testing command for file path input
+# files folder is just for default testing command for file path input
 
 
